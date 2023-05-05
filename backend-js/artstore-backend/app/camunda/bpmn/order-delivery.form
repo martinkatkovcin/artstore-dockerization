@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "text": "# Delivery method",
+      "type": "text",
+      "id": "Field_0l7fbny"
+    },
+    {
+      "values": [
+        {
+          "label": "Personal pickup",
+          "value": "1"
+        },
+        {
+          "label": "Postal delivery",
+          "value": "2"
+        },
+        {
+          "label": "DHL delivery",
+          "value": "3"
+        }
+      ],
+      "label": "Delivery method",
+      "type": "select",
+      "id": "Field_01lngqp",
+      "key": "delivery_method_id",
+      "defaultValue": "<none>"
+    }
+  ],
+  "type": "default",
+  "id": "delivery",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.9.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

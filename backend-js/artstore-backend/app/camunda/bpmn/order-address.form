@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "text": "# Delivery information",
+      "type": "text",
+      "id": "Field_09duxz8"
+    },
+    {
+      "label": "First name",
+      "type": "textfield",
+      "id": "Field_1hhm2wu",
+      "key": "first_name"
+    },
+    {
+      "label": "Last name",
+      "type": "textfield",
+      "id": "Field_0ic7f4h",
+      "key": "last_name"
+    },
+    {
+      "label": "E-mail",
+      "type": "textfield",
+      "id": "Field_03ol40r",
+      "key": "email"
+    },
+    {
+      "label": "Phone number",
+      "type": "textfield",
+      "id": "Field_14581jo",
+      "key": "phone_number"
+    },
+    {
+      "label": "Address",
+      "type": "textfield",
+      "id": "Field_0s17zie",
+      "key": "address"
+    },
+    {
+      "label": "City",
+      "type": "textfield",
+      "id": "Field_0j32bwj",
+      "key": "city"
+    },
+    {
+      "label": "Zip code",
+      "type": "number",
+      "id": "Field_1w6vagi",
+      "key": "zip_code",
+      "defaultValue": 11111,
+      "decimalDigits": 0
+    }
+  ],
+  "type": "default",
+  "id": "address",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.9.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

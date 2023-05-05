@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "text": "# Payment method",
+      "type": "text",
+      "id": "Field_0mscl4e"
+    },
+    {
+      "values": [
+        {
+          "label": "Credit card",
+          "value": "1"
+        },
+        {
+          "label": "Cash on delivery",
+          "value": "2"
+        },
+        {
+          "label": "PayPal",
+          "value": "3"
+        },
+        {
+          "label": "Apple pay",
+          "value": "4"
+        },
+        {
+          "label": "Google pay",
+          "value": "5"
+        }
+      ],
+      "label": "Payment method",
+      "type": "select",
+      "id": "Field_012o8l1",
+      "key": "payment_method_id",
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "type": "default",
+  "id": "payment",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.9.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

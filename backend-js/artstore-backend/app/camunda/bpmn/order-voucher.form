@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "text": "# Summary\n\nFirst name: John\n\nLast name: Doe\n\nE-mail: johndoe@mail.com\n\nAddress: 44th Street, 192\n\nCity: New York City\n\nZip code: 111 11\n\nDelivery method: DHL courier\n\nPayment method: Apple Pay",
+      "type": "text",
+      "id": "Field_1nmzbje"
+    },
+    {
+      "label": "Voucher",
+      "type": "textfield",
+      "id": "Field_1oesidh",
+      "key": "voucher_id"
+    }
+  ],
+  "type": "default",
+  "id": "voucher",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.9.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 7
+}

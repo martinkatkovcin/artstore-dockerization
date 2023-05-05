@@ -1,0 +1,36 @@
+$b-xs: 576px;
+$b-sm: 768px;
+$b-md: 992px;
+$b-lg: 1170px;
+
+$b-xs-max: $b-xs;
+$b-sm-min: $b-xs + 1px;
+$b-sm-max: $b-sm;
+$b-md-min: $b-sm + 1px;
+$b-md-max: $b-md;
+$b-lg-min: $b-md + 1px;
+$b-lg-max: $b-lg;
+$b-xl-min: $b-lg + 1px;
+
+//$primary: #304D6D;
+//$secondary: #82A0BC;
+
+//$primary: #304D6D;
+//$secondary: #A7BBEC;
+//$tertiary: #E2DBBE;
+
+$primary: #304d6d;
+$secondary: #7785ac;
+//$tertiary: #89A894;
+$tertiary: #a7bbec;
+$quaternary: #121212;
+
+$accent: #9c27b0;
+
+$dark: #1d1d1d;
+$dark-page: #121212;
+
+$positive: #21ba45;
+$negative: #c10015;
+$info: #31ccec;
+$warning: #f2c037;

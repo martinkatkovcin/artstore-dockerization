@@ -1,0 +1,47 @@
+services:
+  artstore_database:
+    build: ./database-postgres/
+    ports:
+      - 9999:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    networks:
+      - artstore_network
+    volumes:
+      - artstore_data:/var/lib/postgresql/data
+
+  artstore_frontend:
+    platform: linux/amd64
+    container_name: artstore_frontend
+    restart: always
+    build: ./frontend-js/artstore-frontend/
+    expose:
+      - 8000
+    ports:
+      - 8000:8000
+    environment:
+      BACKEND_HOST: artstore_backend
+    networks:
+      - artstore_network
+
+  artstore_backend:
+    platform: linux/amd64
+    container_name: artstore_backend
+    build: ./backend-js/artstore-backend/
+    ports:
+      - 8081:8081
+    depends_on:
+      - artstore_database
+    environment:
+      DATABASE_HOST: artstore_database
+    networks:
+      - artstore_network
+
+networks:
+  artstore_network:
+    driver: bridge
+
+volumes:
+  artstore_data:
