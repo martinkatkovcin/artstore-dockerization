@@ -13,7 +13,6 @@ RUN npm install
 COPY . .
 
 EXPOSE 8081
-EXPOSE 5432
 CMD [ "node", "server.ts" ]
 
 # Command above is used to run microservice architecture. If you want to run camunda or kafka architectures,
